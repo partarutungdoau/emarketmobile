@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        app:cardCornerRadius="7dp"
+        app:cardElevation="1dp">
+
+
+        <LinearLayout
+            android:layout_width="351dp"
+            android:layout_height="163dp"
+            android:layout_margin="7dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/listGambarProduk"
+                android:layout_width="150dp"
+                android:layout_height="104dp"
+                android:layout_marginTop="5dp"
+                android:text="Produk"
+                android:textColor="#000"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:id="@+id/listNamaProduk"
+                android:layout_width="154dp"
+                android:layout_height="30dp"
+
+
+                android:text="Nama Produk" />
+
+            <TextView
+                android:id="@+id/listHargaProduk"
+                android:layout_width="160dp"
+                android:layout_height="34dp"
+                android:layout_below="@+id/listNamaProduk"
+
+                android:text="Harga Produk" />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

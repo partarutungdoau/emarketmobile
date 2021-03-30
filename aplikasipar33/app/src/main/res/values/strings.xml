@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">aplikasipar33</string>
+    <string name="title_activity_beranda">BerandaActivity</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_dashboard">Produk</string>
+    <string name="title_notifications">Notifikasi</string>
+    <string name="title_akun">Saya</string>
+</resources>
